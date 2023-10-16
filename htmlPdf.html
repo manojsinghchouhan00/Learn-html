@@ -5,6 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First webpage</title>
+    <style>
+        pre {
+            padding: 30px;
+        }
+
+        .nameinput {
+            width: 300px;
+            height: 35px;
+        }
+
+        video {
+            width: 500px;
+            height: 400px;
+        }
+    </style>
 </head>
 
 <body style="margin: 30px; border: 1px solid black; padding: 30px; font-size: 25px;">
@@ -69,6 +84,8 @@
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
+    <div>DIV TAG</div>
+    <span>SPAN TAG</span>
 
     <hr />
     <h1 align="center">Day 2</h1>
@@ -91,7 +108,7 @@
     Absolute url : <img
         src="https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?w=740&t=st=1697114019~exp=1697114619~hmac=b1c15e11bd35a56d45a7373eed4249935b5cddb15ef6b601988aa8bf06e29d4b"
         width="200px" alt="my image">
-    <p>
+
     <h4>HTML Attribute??</h4>
     <ul>
         <li> HTML attributes provide additional information about HTML elements </li>
@@ -100,9 +117,8 @@
         <li> Attributes are always specified in the start tag </li>
         <li> Attributes usually come in name/value pairs like: name="value" </li>
     </ul>
-    </p>
 
-    <p>
+
     <h4>Style Attribute??</h4>
     <ul>
         <li> style attribute ==> styling HTML elements </li>
@@ -112,34 +128,36 @@
         <li> font-size ==> text sizes </li>
         <li> text-align ==> text alignment </li>
     </ul>
-    </p>
+
 
     <p>
     <h4>HTML Formatting Elements</h4>
-    Formatting elements were designed to display special types of text:
-    <b> - Bold text </b> <br>
-    <strong> - Important text </strong> <br>
-    <i> - Italic text </i> <br>
-    <em> - Emphasized text </em> <br>
-    <mark> - Marked text </mark> <br>
-    <small> - Smaller text </small> <br>
-    <del> - Deleted text </del> <br>
-    <ins> - Inserted text </ins> <br>
-    <sub> - Subscript text </sub> <br>
-    <sup> - Superscript text </sup> <br>
+    Formatting elements were designed to display special types of text: <br>
+    &ltb&gt text&lt/b&gt==&gt <b> - Bold text </b> <br>
+    &ltstrong&gt text&lt/strong&gt==&gt <strong> - Important text </strong> <br>
+    &lti&gt text&lt/i&gt==&gt <i> Italic text </i> <br>
+    &ltem&gt text&lt/em&gt==&gt <em> Emphasized text </em> <br>
+    &ltmark&gt text&lt/mark&gt==&gt <mark> Marked text </mark> <br>
+    &ltsmall&gt text&lt/small&gt==&gt <small> Smaller text </small> <br>
+    &ltdel&gt text&lt/del&gt==&gt <del> Deleted text </del> <br>
+    &ltins&gt text&lt/ins&gt==&gt <ins> Inserted text </ins> <br>
+    &ltsub&gt text&lt/sub&gt==&gt Subscript<sub> 2 </sub> <br>
+    &ltsup&gt text&lt/sup&gt==&gt Superscript<sup> 3 </sup> <br>
     </p>
 
     <h3> HTML Quatations elements.</h3>
-    <p>
+    <pre>
         some tags here
-    <blockquote>blockquote </blockquote>
-    <q>q tags </q> ===
-    <abbr>abbr Tag</abbr>
-    <address>Address tsg</address>
-    <cite>cite tag </cite> ===
-    <bdo> bdo tag </bdo> ===
-    <bdo dir="rtl"> bdo tag bdo tag opposite direction --: noitcerid etisoppo </bdo>
-    </p>
+        &lt blockquote &gtblockquote &lt /blockquote &gt
+        &lt q &gtq tags &lt /q &gt ==&gt
+        &lt abbr &gtabbr Tag&lt /abbr&gt
+        &lt address &gtAddress tsg&lt /address&gt
+        &lt cite &gtcite tag &lt /cite &gt ==&gt
+        &lt bdo &gt bdo tag &lt /bdo &gt ==&gt
+        &lt bdo dir="rtl" &gt
+          bdo tag bdo tag opposite direction --: noitcerid etisoppo 
+        &lt /bdo&gt
+    </pre>
 
     <h2>HTML color??</h2>
     <p>HTML supports 140 standard color names.</p>
@@ -169,12 +187,14 @@
     <h3 style="background-color:#ee82ee;">#ee82ee</h3>
     <h3 style="background-color:#ffa500;">#ffa500</h3>
     <h3 style="background-color:#6a5acd;">#6a5acd</h3>
-    <p>HSL stands for hue, saturation, and lightness. <br>
+    <p>
+        HSL stands for hue, saturation, and lightness. <br>
         Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
 
         Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
 
-        Lightness is also a percentage value. 0% is black, and 100% is white.</p>
+        Lightness is also a percentage value. 0% is black, and 100% is white.
+    </p>
 
     <h3 style="background-color:hsl(0, 100%, 0%);">hsl(0, 100%, 0%)</h3>
     <h3 style="background-color:hsl(0, 100%, 25%);">hsl(0, 100%, 25%)</h3>
@@ -192,25 +212,31 @@
     <h3 style="background-color:hsla(9, 100%, 64%, 1);">hsla(9, 100%, 64%, 1)</h3>
 
     <hr>
-    <!-- Day third of html -->
+    <!-- ----------------------------- Day third of html---------------------------------------- -->
     <h1 align="center">Day 3</h1>
     <h3>What is html css??</h3>
     <h3>How to Apply css in html page??</h3>
+    <h3>Describ about html link</h3>
+    <h3>What is favicon icon</h3>
+    <h3>What is table and describ it??</h3>
 
-    <h1>HTML CSS</h1>
-    <pre>Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+    <pre style="border: 1px solid red;">
+        <strong>HTML CSS</strong>
+
+        Cascading Style Sheets (CSS) is used to format the layout of a webpage.
 
         With CSS, you can control the color, font, the size of text, the spacing between elements,<br> how elements are positioned and laid out, <br> what background images or background colors are to be used,<br> different displays for different devices and screen sizes, and much more!
     </pre>
-    <h2>USINg CSS??</h2>
-    <pre>
+    <pre style="border: 1px solid red;">
+        <strong>USINg CSS??</strong>
+
         CSS can be added to HTML documents in 3 ways:
 
-        Inline - by using the style attribute inside HTML elements
-        Internal - by using a &lt style &gt element in the &lt head &gt section
-        External - by using a &lt  link &gt element to link to an external CSS file
+        Inline - by using the style attribute inside HTML elements (Apply one element,I )
+        Internal - by using a &lt style &gt element in the &lt head &gt section (Apply one page, II)
+        External - by using a &lt  link &gt element to link to an external CSS file (Apply many page, III)
     </pre>
-    <pre>
+    <pre style="border: 1px solid red;">
         inline css  ==&gt &lt h1 &gt style="color:blue;">A Blue Heading&lt /h1&gt 
 
         internal css==&gt  
@@ -225,10 +251,388 @@
         External css ==&gt  &lt link rel="stylesheet" href="styles.css" &gt
 
         style.css
-                 body {background-color: powderblue;}
-                 h1   {color: blue;}
-                 p    {color: red;}
+
+         body {background-color: powderblue;}
+         h1   {color: blue;}
+         p    {color: red;}
     </pre>
+    <pre style="border: 1px solid red;">
+        HTML LINK ??
+
+         Links are found in nearly all web pages. Links allow users to click their way from page to page.
+         HTML links are hyperlinks.
+         You can click on a link and jump to another document.
+         Syntax :- &lta href="url"&gtlink text&lt/a&gt
+         By default, links will appear as follows in all browsers:                      
+         An unvisited link is underlined and blue
+         A visited link is underlined and purple
+         An active link is underlined and red                       
+    </pre>
+    <pre>
+        <ul style="border: 1px solid red;">
+            <h3>Target attribute?? in link</h3>
+            The target attribute can have one of the following values:
+          <li>  _self - Default. Opens the document in the same window/tab as it was clicked </li>
+          <li>  _blank - Opens the document in a new window or tab </li>
+          <li>  _parent - Opens the document in the parent frame </li>
+          <li>  _top - Opens the document in the full body of the window </li>
+        </ul>
+        
+        
+        <p style="border: 1px solid red;">
+            <strong>LINK TITLE Attribute??</strong>
+
+            The title attribute specifies extra information about an element. <br/>
+
+            <a href="https://www.google.com/html/" title="Go to Google section">Go to my web page</a>
+           
+                &lta href="mailto:manoj00@gmail.com"&gtSend email&lt title="send mail"/a&gt
+            
+        </p>        
+        <div style="border: 1px solid red;">
+            <h3>HTML LINK COLOR -- visited, hover, active</h3>
+          a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+          }
+          
+          a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+          }
+        </div>
+        <div style="border: 1px solid red;">
+          <h3>HTML LINK-- Create  a bookmark link</h3>  
+          <p><a href="#C4">Jump to Chapter 4</a></p>
+          <p>Chapter 1</p>
+          <p>Chapter 2</p>
+          <p>Chapter 3</p>
+          <p id="C4">Chapter 4</p>
+        </div>           
+        <p style="border: 1px solid red;">Favicon image
+            A favicon is a small image displayed next to the page title in the browser tab.
+
+            &ltlink rel="icon" type="image/x-icon" href="/images/favicon.ico"&gt
+        </p>
+        <h2>HTML Table</h2>
+        <p style="border: 1px solid red;">
+            HTML tables allow web developers to arrange data into rows and columns.
+        &lttable style="width:100%"&gt
+            &lttr&gt
+              &ltth&gtFirstname&lt/th&gt
+              &ltth&gtLastname&lt/th&gt 
+              &ltth&gtAge&lt/th&gt
+            &lt/tr&gt
+            &lttr&gt
+              &lttd&gtJill&lt/td&gt
+              &lttd&gtSmith&lt/td&gt
+              &lttd&gt50&lt/td&gt
+            &lt/tr&gt
+            &lttr&gt
+              &lttd&gtEve&lt/td&gt
+              &lttd&gtJackson&lt/td&gt
+              &lttd&gt94&lt/td&gt
+            &lt/tr&gt
+            &lttr&gt
+              &lttd&gtJohn&lt/td&gt
+              &lttd&gtDoe&lt/td&gt
+              &lttd&gt80&lt/td&gt
+            &lt/tr&gt
+        &lt/table&gt
+        </p>
+        <h5 style="border: 1px solid red;">
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+              }
+         <p>
+            dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden 
+         </p>
+        </h5>
+        <h3 style="border: 1px solid red;">
+            Table size , Table Headers
+
+            Cell Spacing --
+            table {
+                border-spacing: 30px;
+              }
+
+              Cell Padding --
+            tr,td{
+                padding-top: 10px;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                padding-right: 40px;
+            }
+
+            colspan, Rowspan --
+            &ltth colspan="2"&gtPhone&lt/th&gt
+            &ltth rowspan="2"&gtPhone&lt/th&gt
+
+            Table styling --
+            tr:nth-child(even) {
+                background-color: #D6EEEE;
+            }
+
+            colgroupping --
+            &ltcolgroup&gt
+                &ltcol span="2" style="background-color: #D6EEEE"&gt
+                &ltcol span="3" style="background-color: pink"  &gt
+                &ltcol span="3" style="visibility: collapse" &gt
+            &lt/colgroup&gt
+        </h3>
+    </pre>
+    <hr>
+    <!-- ---------------------Day Fourth of html--------------------------------------- ---- -->
+    <h1 align="center">Day 4</h1>
+    <h3>What is list and define type??</h3>
+    <h3>what is Ordered list??</h3>
+    <h3>what is Unordered list??</h3>
+    <h3>what is Description list??</h3>
+    <h3>What is class and id??</h3>
+    <h3>What is iframe ??</h3>
+    <div>
+        <h3>HTML LIST</h3>
+        <p>HTML lists is group a set of related items in lists.</p>
+        <ul>
+            <li>Ordered list</li>
+            <li>Unordered list</li>
+            <li>Other list (Description list)</li>
+        </ul>
+        <pre style="border: 1px solid red;">
+        <b>Ordered list</b>
+            &ltol type="1"&gt
+                &ltli&gtItem-1&lt/li&gt
+                &ltli&gtItem-2&lt/li&gt
+                &ltli&gtItem-3&lt/li&gt
+            &lt/ol&gt
+
+             type=1,A,a,i.I
+             start ="50"
+
+        <b>unordered list</b>
+            &ltul style="list-style-type:disc;"&gt
+             &ltli&gtItem-1&lt/li&gt
+             &ltli&gtItem-2&lt/li&gt
+             &ltli&gtItem-3&lt/li&gt
+            &lt/ul&gt
+
+            disc, circle,squre,none
+
+        <b>Description list</b>
+            &ltdl&gt
+                &ltdt&gtCoffee&lt/dt&gt
+                &ltdd&gt- black hot drink&lt/dd&gt
+                &ltdt&gtMilk&lt/dt&gt
+                &ltdd&gt- white cold drink&lt/dd&gt
+            &lt/dl&gt
+        </pre>
+        <pre style="border: 1px solid red;">
+            <h3>Create a menu/navar</h3>
+            &lt!DOCTYPE html&gt
+            &lthtml&gt
+                &lthead&gt
+                &ltstyle&gt
+                ul {
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                  overflow: hidden;
+                  background-color: #333333;
+                }
+
+                li {
+                  float: left;
+                }
+
+                li a {
+                  display: inline-block;
+                  color: white;
+                  text-align: center;
+                  padding: 16px;
+                  text-decoration: none;
+                }
+
+                li a:hover {
+                  background-color: #111111;
+                }
+                &lt/style&gt
+                &lt/head&gt
+                &ltbody&gt
+                
+                &lth2&gtNavigation Menu&lt/h2&gt
+                &ltp&gtIn this example, we use CSS to style the list horizontally, to create a navigation menu:&lt/p&gt
+                
+                &ltul&gt
+                  &ltli&gt&lta href="#home"&gtHome&lt/a&gt&lt/li&gt
+                  &ltli&gt&lta href="#news"&gtNews&lt/a&gt&lt/li&gt
+                  &ltli&gt&lta href="#contact"&gtContact&lt/a&gt&lt/li&gt
+                  &ltli&gt&lta href="#about"&gtAbout&lt/a&gt&lt/li&gt
+                &lt/ul&gt
+                &lt/body&gt
+                &lt/html&gt
+            </pre>
+        <h2 id="ch">Iframe :- An HTML iframe is used to display a web page within a web page.</h2>
+
+        <pre style="border: 1px solid red;">
+                <p>
+                    The HTML &ltiframe&gt tag specifies an inline frame.
+    
+                        An inline frame is used to embed another document within the current HTML document.
+
+                        Syntax :- &ltiframe src="url" title="description"&gt&lt/iframe&gt
+                </p>
+                <a href="#ch" target="iframe_a" style="text-decoration: none;background-color: #ffa500; border-radius: 30%;"> Go my html page</a>
+                <iframe src="practice.html" title="My iframe" name="iframe_a" frameborder="0" width="800px" height="400px"></iframe>
+                
+        </pre>
+        <pre style="border: 1px solid red;">
+                <h2>HTML File Paths :- A file path describes the location of a 
+                    file in a web site's folder structure.
+                </h2>
+                <p>
+                 &ltimg src="picture.jpg"&gt     	The "picture.jpg" file is located in the
+                                                    same folder as the current page
+
+                 &ltimg src="images/picture.jpg"&gt	The "picture.jpg" file is located in the images
+                                                        folder in the current folder
+
+                 &ltimg src="/images/picture.jpg"&gt	The "picture.jpg" file is located in the
+                                                        images folder at the root of the current web
+
+                 &ltimg src="../picture.jpg"&gt	The "picture.jpg" file is located in the folder one 
+                                                level up from the current folder
+                </p>
+            </pre>
+        <hr>
+        <!-- ---------------------Day FIve of html------------------------------ ---- -->
+        <h1 align="center"> DAY - 5</h1>
+        <h3>What is html layout??</h3>
+        <h3>What is Responsive??</h3>
+        <h3>What is html entities??</h3>
+        <h3>What is html Symbol??</h3>
+        <h3>What is html Emojis??</h3>
+
+        <p> Websites often display content in multiple columns (like a magazine or a newspaper).</p>
+        <p style="border: 1px solid red; padding: 30px;">
+            <img src="images/HTML-Layout-1.png" alt="HTML-Layout-1">
+            <img src="images/html-layout-3.jpg" alt="HTML-Layout-3">
+            <img src="images/Html-layout-2.gif" alt="HTML-Layout-2">
+        </p>
+
+        <h2>Html Responsive</h2>
+        <div style="border: 1px solid red; padding: 30px;">
+            <p>
+                Responsive web design is about creating web pages that look good on all devices! <br>
+
+                A responsive web design will automatically adjust for different screen sizes and viewports.
+            </p>
+            <p>
+                &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+            </p>
+            <pre>Image Responsive :-
+                (1) Width: 100% 
+                (2) style="max-width:100%;height:auto;"
+                (3) Media Queries : 
+
+                @media screen and (max-width: 800px){
+                    .left, .main, .right {
+                      width: 100%; 
+                    }
+                }
+
+                (4)  Popular CSS Frameworks :- Bootstrap, tailwind css, material-ui, ANTD etc.
+            </pre>
+        </div>
+        <!-- ---------------------Day SIX of html------------------------------ ---- -->
+        <h1 align="center"> DAY - 6</h1>
+
+        <h3>What is form??</h3>
+        <h3>What is input element??</h3>
+        <h3>What is label element??</h3>
+        <h3>video/Audio and element??</h3>
+        <h3>How to play youtube video in my website</h3>
+
+        <pre style="border: 1px solid red; padding: 30px;">
+            <strong>HTML FORM</strong>
+            <p>
+                An HTML form is used to collect user input. 
+                The user input is most often sent to a server for processing.
+            </p>
+            <form action="/file.js" name="" method="get" target="_blank" novalidate style="border: 1px solid red;       padding: 30px;">
+
+                <label for="fname">First name:</label>
+                <input type="text" class="nameinput" placeholder="Enter First name" name="" value="" id="fname">
+
+                <label for="lname">First name:</label>
+                <input type="text" class="nameinput" placeholder="Enter last name" name="" value="" id="fname">
+
+                
+                <label for="m">Male</label><input type="radio" id="m" name="sex">    <label for="f">Female</label><input type="radio" id="f" name="sex">    <label for="o">Other</label><input type="radio" id="o" name="sex">
+
+                <input type="checkbox" id="checkbox"> <label for="checkbox">Term and condition apply</label>
+
+                <input type="submit" class="nameinput" value="submit">
+
+            </form>
+        </pre>
+        <pre style="border: 1px solid red; padding: 30px;">
+            <strong>Audio/video element</strong>
+
+           &ltvideo width="400" controls&gt
+                &ltsource src="url" type="video/mp4"&gt
+          &lt/video&gt
+
+         &ltaudio width="400" controls&gt
+            &ltsource src="url" type="audio/mp4"&gt
+         &lt/audio&gt
+
+         &ltiframe width="420" height="345" 
+          src="youtube url"&gt
+         &lt/iframe&gt
+      </pre>
+        <div style="border: 1px solid red; padding: 30px;">
+            <Video controls>
+                <source src="images/earth1.mp4" />
+            </Video>
+            <Video controls>
+                <source src="images/path.mp4" />
+            </Video> <br><br>
+            <audio controls>
+                <source src="images/nature-1.mp3" />
+            </audio>
+            <audio controls>
+                <source src="images/nature-2.mp3" />
+            </audio><br><br>
+            <iframe width="420" height="345" 
+            src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+            </iframe>
+
+           
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wTNhpKG7NwI" frameborder="0" allowfullscreen></iframe>
+
+            <iframe width="420" height="345" 
+            src="https://www.youtube.com/embed/pQ9GnDx4Ozk">
+            </iframe>
+
+            <iframe src="https://www.youtube.com/embed/NvdUSZyCGRs" frameborder="0"></iframe>
+    </div>
+    </div>
+
 </body>
 
 </html>
