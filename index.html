@@ -6,23 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First webpage</title>
     <style>
-        pre {
-            padding: 30px;
+        * {
+            box-sizing: border-box;
         }
 
-        .nameinput {
-            width: 300px;
-            height: 35px;
+         div, p,h3,h5 {
+            margin: 6px;
+            padding: 6px;
         }
 
         video {
             width: 500px;
             height: 400px;
         }
+
+        pre {
+            padding: 30px;
+        }
+
+        .nameinput {
+            width: 60%;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 500px) {
+            pre {
+                font-size: 10px;
+                padding: 0px;
+                margin: 0px;
+                background-color: lightgreen;
+            }
+
+            img,
+            video,
+            audio,
+            iframe {
+                width: 90%;
+            }
+
+            .nameinput {
+                width: 100%;
+                margin: 10px;
+                padding: 10px;
+            }
+
+        }
     </style>
 </head>
 
-<body style="margin: 30px; border: 1px solid black; padding: 30px; font-size: 25px;">
+<body style="border: 1px solid black;">
+
     <div>
         <h1 align="center">Day 1</h1>
         <h4>Diffrence between HTML, CSS, JAVASCRIPT ??</h4>
@@ -56,347 +90,358 @@
         </p>
         <div>
 
-            <pre style="border :2px solid black;">
-            &lt !DOCTYPE html &gt
-            &lt html &gt
-    
-                &lt head &gt
-                     &lt title&gt HTML PAGE &lt /title &gt
-                &lt /head &gt
-    
-                &lt body &gt
-                     &lt h1>Heading 1&lt /h1 &gt
-                    &lt p &gt
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Sit perspiciatis quas id adipisci! 
-                     &lt /p &gt
-                &lt /body &gt
-    
-            &lt /html &gt
-        </pre>
+            <p style="border :2px solid black;">
+                &lt!DOCTYPE html&gt <br>
+                &lthtml&gt <br>
+                <br>
+                &lthead&gt <br>
+                &lttitl&gt HTML PAGE &lt/title&gt <br>
+                &lt/head&gt <br>
+                <br>
+                &ltbody&gt <br>
+                &lth1>Hello Dunia!!!&lt/h1&gt <br>
+                &lt/body&gt <br>
+                <br>
+                &lt/html&gt <br>
+            </p>
             <img src="images/dom.jpg" alt="Dom image" width="500px">
         </div>
-        <h3>Elements and tag</h3>
-        &lt tagname &gt This is my content &lt tagname &gt <br>
-        &lt h1 &gt This is my content &lt h1 &gt
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
-        <div>DIV TAG</div>
-        <span>SPAN TAG</span>
+        <div>
+            <h3>Elements and tag</h3>
+            &lttagname&gt This is my content &lttagname&gt <br>
+            &lth1&gt This is my content &lth1&gt
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <div>DIV TAG</div>
+            <span>SPAN TAG</span>
 
-        <hr />
-        <h1 align="center">Day 2</h1>
-        <p>
-            what is nested element?? <br>
-            What is ancher tag?? <br>
-            what is image tag?? <br>
-            what is url and it's type?? <br>
-            what is HTML Attribute?? and style attribute?? <br>
-            what is formatting element?? <br>
-            What is HTML comment?? <br>
-            what is HTML color?? (RGB, HEX, HSL,or RGBA, HSLA.)
-        </p>
+            <hr />
+            <h1 align="center">Day 2</h1>
+            <p>
+                what is nested element?? <br>
+                What is ancher tag?? <br>
+                what is image tag?? <br>
+                what is url and it's type?? <br>
+                what is HTML Attribute?? and style attribute?? <br>
+                what is formatting element?? <br>
+                What is HTML comment?? <br>
+                what is HTML color?? (RGB, HEX, HSL,or RGBA, HSLA.)
+            </p>
 
-        <a href="https://google.com">Go to Google</a> <br>
-        <a href="https://facebook.com">Go to Facebook</a> <br>
-        Relative url
-        <img src="images/02fb83c2e53cdcb3a5bb6340f112db83.jpg" width="100px" alt="my image">
+            <a href="https://google.com">Go to Google</a> <br>
+            <a href="https://facebook.com">Go to Facebook</a> <br>
+            Relative url
+            <img src="images/02fb83c2e53cdcb3a5bb6340f112db83.jpg" width="100px" alt="my image">
 
-        Absolute url : <img
-            src="https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?w=740&t=st=1697114019~exp=1697114619~hmac=b1c15e11bd35a56d45a7373eed4249935b5cddb15ef6b601988aa8bf06e29d4b"
-            width="200px" alt="my image">
+            Absolute url : <img
+                src="https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?w=740&t=st=1697114019~exp=1697114619~hmac=b1c15e11bd35a56d45a7373eed4249935b5cddb15ef6b601988aa8bf06e29d4b"
+                width="200px" alt="my image">
 
-        <h4>HTML Attribute??</h4>
-        <ul>
-            <li> HTML attributes provide additional information about HTML elements </li>
-            <li> All HTML elements can have attributes </li>
-            <li> Attributes provide additional information about elements </li>
-            <li> Attributes are always specified in the start tag </li>
-            <li> Attributes usually come in name/value pairs like: name="value" </li>
-        </ul>
-
-
-        <h4>Style Attribute??</h4>
-        <ul>
-            <li> style attribute ==> styling HTML elements </li>
-            <li> background-color ==> background color </li>
-            <li> color ==> text colors </li>
-            <li> font-family ==> text fonts </li>
-            <li> font-size ==> text sizes </li>
-            <li> text-align ==> text alignment </li>
-        </ul>
+            <h4>HTML Attribute??</h4>
+            <ul>
+                <li> HTML attributes provide additional information about HTML elements </li>
+                <li> All HTML elements can have attributes </li>
+                <li> Attributes provide additional information about elements </li>
+                <li> Attributes are always specified in the start tag </li>
+                <li> Attributes usually come in name/value pairs like: name="value" </li>
+            </ul>
 
 
-        <p>
-        <h4>HTML Formatting Elements</h4>
-        Formatting elements were designed to display special types of text: <br>
-        &ltb&gt text&lt/b&gt==&gt <b> - Bold text </b> <br>
-        &ltstrong&gt text&lt/strong&gt==&gt <strong> - Important text </strong> <br>
-        &lti&gt text&lt/i&gt==&gt <i> Italic text </i> <br>
-        &ltem&gt text&lt/em&gt==&gt <em> Emphasized text </em> <br>
-        &ltmark&gt text&lt/mark&gt==&gt <mark> Marked text </mark> <br>
-        &ltsmall&gt text&lt/small&gt==&gt <small> Smaller text </small> <br>
-        &ltdel&gt text&lt/del&gt==&gt <del> Deleted text </del> <br>
-        &ltins&gt text&lt/ins&gt==&gt <ins> Inserted text </ins> <br>
-        &ltsub&gt text&lt/sub&gt==&gt Subscript<sub> 2 </sub> <br>
-        &ltsup&gt text&lt/sup&gt==&gt Superscript<sup> 3 </sup> <br>
-        </p>
+            <h4>Style Attribute??</h4>
+            <ul>
+                <li> style attribute ==> styling HTML elements </li>
+                <li> background-color ==> background color </li>
+                <li> color ==> text colors </li>
+                <li> font-family ==> text fonts </li>
+                <li> font-size ==> text sizes </li>
+                <li> text-align ==> text alignment </li>
+            </ul>
 
-        <h3> HTML Quatations elements.</h3>
-        <pre>
-        some tags here
-        &lt blockquote &gtblockquote &lt /blockquote &gt
-        &lt q &gtq tags &lt /q &gt ==&gt
-        &lt abbr &gtabbr Tag&lt /abbr&gt
-        &lt address &gtAddress tsg&lt /address&gt
-        &lt cite &gtcite tag &lt /cite &gt ==&gt
-        &lt bdo &gt bdo tag &lt /bdo &gt ==&gt
-        &lt bdo dir="rtl" &gt
-          bdo tag bdo tag opposite direction --: noitcerid etisoppo 
-        &lt /bdo&gt
-    </pre>
 
-        <h2>HTML color??</h2>
-        <p>HTML supports 140 standard color names.</p>
-        <h1>rgb(red, green, blue) ===&gt 0-255</h1>
-        <h3 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60)</h3>
-        <h3 style="background-color:rgb(100, 100, 100);">rgb(100, 100, 100)</h3>
-        <h3 style="background-color:rgb(140, 140, 140);">rgb(140, 140, 140)</h3>
-        <h3 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h3>
-        <h3 style="background-color:rgb(200, 200, 200);">rgb(200, 200, 200)</h3>
-        <h3 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240)</h3>
-        <h1>rgba(red, green, blue, alpha) ===&gt Alpha channel - which specifies the opacity for a color. (0.0-1.0)--&gt
-            transparent to dark or not transparent
-        </h1>
 
-        <h3 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h3>
-        <h3 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h3>
-        <h3 style="background-color:rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h3>
-        <h3 style="background-color:rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h3>
-        <h3 style="background-color:rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h3>
-        <h3 style="background-color:rgba(255, 99, 71, 1);">rgba(255, 99, 71, 1)</h3>
+            <h4>HTML Formatting Elements</h4>
+            Formatting elements were designed to display special types of text: <br>
+            &ltb&gt text&lt/b&gt==&gt <b> - Bold text </b> <br>
+            &ltstrong&gt text&lt/strong&gt==&gt <strong> - Important text </strong> <br>
+            &lti&gt text&lt/i&gt==&gt <i> Italic text </i> <br>
+            &ltem&gt text&lt/em&gt==&gt <em> Emphasized text </em> <br>
+            &ltmark&gt text&lt/mark&gt==&gt <mark> Marked text </mark> <br>
+            &ltsmall&gt text&lt/small&gt==&gt <small> Smaller text </small> <br>
+            &ltdel&gt text&lt/del&gt==&gt <del> Deleted text </del> <br>
+            &ltins&gt text&lt/ins&gt==&gt <ins> Inserted text </ins> <br>
+            &ltsub&gt text&lt/sub&gt==&gt Subscript<sub> 2 </sub> <br>
+            &ltsup&gt text&lt/sup&gt==&gt Superscript<sup> 3 </sup> <br>
 
-        <h1>A hexadecimal color is specified with: #rrggbb -- 00-ff or 0-f</h1>
 
-        <h3 style="background-color:#ff0000;">#ff0000</h3>
-        <h3 style="background-color:#0000ff;">#0000ff</h3>
-        <h3 style="background-color:#3cb371;">#3cb371</h3>
-        <h3 style="background-color:#ee82ee;">#ee82ee</h3>
-        <h3 style="background-color:#ffa500;">#ffa500</h3>
-        <h3 style="background-color:#6a5acd;">#6a5acd</h3>
-        <p>
-            HSL stands for hue, saturation, and lightness. <br>
-            Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+            <h3> HTML Quatations elements.</h3>
 
-            Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
+            some tags here <br>
+            &lt blockquote &gtblockquote &lt /blockquote &gt <br>
+            &lt q &gtq tags &lt /q &gt ==&gt <br>
+            &lt abbr &gtabbr Tag&lt /abbr&gt <br>
+            &lt address &gtAddress tsg&lt /address&gt <br>
+            &lt cite &gtcite tag &lt /cite &gt ==&gt <br>
+            &lt bdo &gt bdo tag &lt /bdo &gt ==&gt <br>
+            &lt bdo dir="rtl" &gt <br>
+            bdo tag bdo tag opposite direction --: noitcerid etisoppo <br>
+            &lt /bdo&gt <br>
 
-            Lightness is also a percentage value. 0% is black, and 100% is white.
-        </p>
 
-        <h3 style="background-color:hsl(0, 100%, 0%);">hsl(0, 100%, 0%)</h3>
-        <h3 style="background-color:hsl(0, 100%, 25%);">hsl(0, 100%, 25%)</h3>
-        <h3 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h3>
-        <h3 style="background-color:hsl(0, 100%, 75%);">hsl(0, 100%, 75%)</h3>
-        <h3 style="background-color:hsl(0, 100%, 90%);">hsl(0, 100%, 90%)</h3>
-        <h3 style="background-color:hsl(0, 100%, 100%);">hsl(0, 100%, 100%)</h3>
-        <h1>HSLA color values are an extension of HSL with an Alpha channel (opacity).</h1>
+            <h2>HTML color??</h2>
+            <p>HTML supports 140 standard color names.</p>
+            <h1>rgb(red, green, blue) ===&gt 0-255</h1>
+            <h3 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60)</h3>
+            <h3 style="background-color:rgb(100, 100, 100);">rgb(100, 100, 100)</h3>
+            <h3 style="background-color:rgb(140, 140, 140);">rgb(140, 140, 140)</h3>
+            <h3 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h3>
+            <h3 style="background-color:rgb(200, 200, 200);">rgb(200, 200, 200)</h3>
+            <h3 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240)</h3>
+            <h1>rgba(red, green, blue, alpha) ===&gt Alpha channel - which specifies the opacity for a color.
+                (0.0-1.0)--&gt
+                transparent to dark or not transparent
+            </h1>
 
-        <h3 style="background-color:hsla(9, 100%, 64%, 0);">hsla(9, 100%, 64%, 0)</h3>
-        <h3 style="background-color:hsla(9, 100%, 64%, 0.2);">hsla(9, 100%, 64%, 0.2)</h3>
-        <h3 style="background-color:hsla(9, 100%, 64%, 0.4);">hsla(9, 100%, 64%, 0.4)</h3>
-        <h3 style="background-color:hsla(9, 100%, 64%, 0.6);">hsla(9, 100%, 64%, 0.6)</h3>
-        <h3 style="background-color:hsla(9, 100%, 64%, 0.8);">hsla(9, 100%, 64%, 0.8)</h3>
-        <h3 style="background-color:hsla(9, 100%, 64%, 1);">hsla(9, 100%, 64%, 1)</h3>
+            <h3 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h3>
+            <h3 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h3>
+            <h3 style="background-color:rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h3>
+            <h3 style="background-color:rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h3>
+            <h3 style="background-color:rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h3>
+            <h3 style="background-color:rgba(255, 99, 71, 1);">rgba(255, 99, 71, 1)</h3>
 
-        <hr>
-        <!-- ----------------------------- Day third of html---------------------------------------- -->
-        <h1 align="center">Day 3</h1>
-        <h3>What is html css??</h3>
-        <h3>How to Apply css in html page??</h3>
-        <h3>Describ about html link</h3>
-        <h3>What is favicon icon</h3>
-        <h3>What is table and describ it??</h3>
+            <h1>A hexadecimal color is specified with: #rrggbb -- 00-ff or 0-f</h1>
 
-        <pre style="border: 1px solid red;">
-        <strong>HTML CSS</strong>
+            <h3 style="background-color:#ff0000;">#ff0000</h3>
+            <h3 style="background-color:#0000ff;">#0000ff</h3>
+            <h3 style="background-color:#3cb371;">#3cb371</h3>
+            <h3 style="background-color:#ee82ee;">#ee82ee</h3>
+            <h3 style="background-color:#ffa500;">#ffa500</h3>
+            <h3 style="background-color:#6a5acd;">#6a5acd</h3>
+            <p>
+                HSL stands for hue, saturation, and lightness. <br>
+                Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
 
-        Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+                Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
 
-        With CSS, you can control the color, font, the size of text, the spacing between elements,<br> how elements are positioned and laid out, <br> what background images or background colors are to be used,<br> different displays for different devices and screen sizes, and much more!
-    </pre>
-        <pre style="border: 1px solid red;">
-        <strong>USINg CSS??</strong>
+                Lightness is also a percentage value. 0% is black, and 100% is white.
+            </p>
 
-        CSS can be added to HTML documents in 3 ways:
+            <h3 style="background-color:hsl(0, 100%, 0%);">hsl(0, 100%, 0%)</h3>
+            <h3 style="background-color:hsl(0, 100%, 25%);">hsl(0, 100%, 25%)</h3>
+            <h3 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h3>
+            <h3 style="background-color:hsl(0, 100%, 75%);">hsl(0, 100%, 75%)</h3>
+            <h3 style="background-color:hsl(0, 100%, 90%);">hsl(0, 100%, 90%)</h3>
+            <h3 style="background-color:hsl(0, 100%, 100%);">hsl(0, 100%, 100%)</h3>
+            <h1>HSLA color values are an extension of HSL with an Alpha channel (opacity).</h1>
 
-        Inline - by using the style attribute inside HTML elements (Apply one element,I )
-        Internal - by using a &lt style &gt element in the &lt head &gt section (Apply one page, II)
-        External - by using a &lt  link &gt element to link to an external CSS file (Apply many page, III)
-    </pre>
-        <pre style="border: 1px solid red;">
-        inline css  ==&gt &lt h1 &gt style="color:blue;">A Blue Heading&lt /h1&gt 
+            <h3 style="background-color:hsla(9, 100%, 64%, 0);">hsla(9, 100%, 64%, 0)</h3>
+            <h3 style="background-color:hsla(9, 100%, 64%, 0.2);">hsla(9, 100%, 64%, 0.2)</h3>
+            <h3 style="background-color:hsla(9, 100%, 64%, 0.4);">hsla(9, 100%, 64%, 0.4)</h3>
+            <h3 style="background-color:hsla(9, 100%, 64%, 0.6);">hsla(9, 100%, 64%, 0.6)</h3>
+            <h3 style="background-color:hsla(9, 100%, 64%, 0.8);">hsla(9, 100%, 64%, 0.8)</h3>
+            <h3 style="background-color:hsla(9, 100%, 64%, 1);">hsla(9, 100%, 64%, 1)</h3>
 
-        internal css==&gt  
-        &lt head &gt
-          &lt style &gt
-            body {background-color: powderblue;}
-            h1   {color: blue;}
-            p    {color: red;}
-          &lt /style &gt
-        &lt /head &gt
+            <hr>
+            <!-- ----------------------------- Day third of html---------------------------------------- -->
+            <h1 align="center">Day 3</h1>
+            <h3>What is html css??</h3>
+            <h3>How to Apply css in html page??</h3>
+            <h3>Describ about html link</h3>
+            <h3>What is favicon icon</h3>
+            <h3>What is table and describ it??</h3>
 
-        External css ==&gt  &lt link rel="stylesheet" href="styles.css" &gt
+            <p style="border: 1px solid red;">
+                <strong>HTML CSS</strong> <br>
+                <br>
+                Cascading Style Sheets (CSS) is used to format the layout of a webpage. <br>
+                With CSS, you can control the color, font, the size of text, the spacing <br>
+                between elements, how elements are positioned and laid out, what background <br>
+                images or background colors are to be used, different displays for <br>
+                different devices and screen sizes, and much more! <br>
+            </p>
+            <p style="border: 1px solid red;">
+                <strong>USINg CSS??</strong> <br>
+                <br>
+                CSS can be added to HTML documents in 3 ways: <br>
+                <br>
+                Inline - Apply one element,I <br>
+                Internal - Apply one page, II <br>
+                External - Apply many page, III <br>
+            </p>
+            <p style="border: 1px solid red;">
+                inline css ==&gt &lt h1 &gt style="color:blue;">A Blue Heading&lt /h1&gt <br>
+                <br>
+                internal css==&gt <br>
+                &lt head &gt <br>
+                &lt style &gt <br>
+                body {background-color: powderblue;} <br>
+                h1 {color: blue;} <br>
+                p {color: red;} <br>
+                &lt /style &gt <br>
+                &lt /head &gt <br>
+                <br>
+                External css ==&gt &lt link rel="stylesheet" href="styles.css" &gt <br>
+                <br>
+                style.css <br>
+                <br>
+                body {background-color: powderblue;} <br>
+                h1 {color: blue;} <br>
+                p {color: red;} <br>
+            </p>
+            <p style="border: 1px solid red;">
+                HTML LINK ?? <br><br>
 
-        style.css
+                Links are found in nearly all web pages. Links allow users to click their way from page <br><br>to page.
+                <br><br>
+                HTML links are hyperlinks. <br><br>
+                You can click on a link and jump to another document. <br><br>
+                Syntax :- &lta href="url"&gtlink text&lt/a&gt <br><br>
+                By default, links will appear as follows in all browsers: <br><br>
+                An unvisited link is underlined and blue <br><br>
+                A visited link is underlined and purple <br><br>
+                An active link is underlined and red <br><br>
+            </p>
 
-         body {background-color: powderblue;}
-         h1   {color: blue;}
-         p    {color: red;}
-    </pre>
-        <pre style="border: 1px solid red;">
-        HTML LINK ??
+            <ul style="border: 1px solid red;">
+                <h3>Target attribute?? in link</h3>
+                The target attribute can have one of the following values: <br>
+                <li> _self - Default. Opens the document in the same window/tab as it was clicked </li>
+                <li> _blank - Opens the document in a new window or tab </li>
+                <li> _parent - Opens the document in the parent frame </li>
+                <li> _top - Opens the document in the full body of the window </li>
+            </ul>
 
-         Links are found in nearly all web pages. Links allow users to click their way from page to page.
-         HTML links are hyperlinks.
-         You can click on a link and jump to another document.
-         Syntax :- &lta href="url"&gtlink text&lt/a&gt
-         By default, links will appear as follows in all browsers:                      
-         An unvisited link is underlined and blue
-         A visited link is underlined and purple
-         An active link is underlined and red                       
-    </pre>
-        <pre>
-        <ul style="border: 1px solid red;">
-            <h3>Target attribute?? in link</h3>
-            The target attribute can have one of the following values:
-          <li>  _self - Default. Opens the document in the same window/tab as it was clicked </li>
-          <li>  _blank - Opens the document in a new window or tab </li>
-          <li>  _parent - Opens the document in the parent frame </li>
-          <li>  _top - Opens the document in the full body of the window </li>
-        </ul>
-        
-        
-        <p style="border: 1px solid red;">
-            <strong>LINK TITLE Attribute??</strong>
 
-            The title attribute specifies extra information about an element. <br/>
+            <p style="border: 1px solid red;">
+                <strong>LINK TITLE Attribute??</strong>
 
-            <a href="https://www.google.com/html/" title="Go to Google section">Go to my web page</a>
-           
-                &lta href="mailto:manoj00@gmail.com"&gtSend email&lt title="send mail"/a&gt
-            
-        </p>        
-        <div style="border: 1px solid red;">
-            <h3>HTML LINK COLOR -- visited, hover, active</h3>
-          a:link {
-            color: green;
-            background-color: transparent;
-            text-decoration: none;
-          }
-          
-          a:visited {
-            color: pink;
-            background-color: transparent;
-            text-decoration: none;
-          }
-          
-          a:hover {
-            color: red;
-            background-color: transparent;
-            text-decoration: underline;
-          }
-          
-          a:active {
-            color: yellow;
-            background-color: transparent;
-            text-decoration: underline;
-          }
+                The title attribute specifies extra information about an element. <br /><br />
+
+                <a href="https://www.google.com" title="Go to Google section"> <br>
+                    Go to my Google page <br>
+                </a>
+
+                &lta href="mailto:manoj00@gmail.com" title="send mail"&gt
+                Send email
+                &lt/a&gt
+
+            </p>
         </div>
         <div style="border: 1px solid red;">
-          <h3>HTML LINK-- Create  a bookmark link</h3>  
-          <p><a href="#C4">Jump to Chapter 4</a></p>
-          <p>Chapter 1</p>
-          <p>Chapter 2</p>
-          <p>Chapter 3</p>
-          <p id="C4">Chapter 4</p>
-        </div>           
-        <p style="border: 1px solid red;">Favicon image
-            A favicon is a small image displayed next to the page title in the browser tab.
+            <h3>HTML LINK COLOR -- visited, hover, active</h3>
+            a:link { <br>
+            color: green; <br>
+            background-color: transparent; <br>
+            text-decoration: none; <br>
+            } <br>
+            <br>
+            a:visited { <br>
+            color: pink; <br>
+            background-color: transparent; <br>
+            text-decoration: none; <br>
+            } <br>
+            <br>
+            a:hover { <br>
+            color: red; <br>
+            background-color: transparent; <br>
+            text-decoration: underline; <br>
+            } <br>
+            <br>
+            a:active { <br>
+            color: yellow; <br>
+            background-color: transparent; <br>
+            text-decoration: underline; <br>
+            } <br>
+        </div>
+        <div style="border: 1px solid red;">
+            <h3>HTML LINK-- Create a bookmark link</h3>
+            <p><a href="#C4">Jump to Chapter 4</a></p>
+            <p>Chapter 1</p>
+            <p>Chapter 2</p>
+            <p>Chapter 3</p>
+            <p id="C4">Chapter 4</p>
+        </div>
+        <div>
+            <p style="border: 1px solid red;">Favicon image
+                A favicon is a small image displayed next to the page title in the browser tab.
 
-            &ltlink rel="icon" type="image/x-icon" href="/images/favicon.ico"&gt
-        </p>
-        <h2>HTML Table</h2>
-        <p style="border: 1px solid red;">
-            HTML tables allow web developers to arrange data into rows and columns.
-        &lttable style="width:100%"&gt
-            &lttr&gt
-              &ltth&gtFirstname&lt/th&gt
-              &ltth&gtLastname&lt/th&gt 
-              &ltth&gtAge&lt/th&gt
-            &lt/tr&gt
-            &lttr&gt
-              &lttd&gtJill&lt/td&gt
-              &lttd&gtSmith&lt/td&gt
-              &lttd&gt50&lt/td&gt
-            &lt/tr&gt
-            &lttr&gt
-              &lttd&gtEve&lt/td&gt
-              &lttd&gtJackson&lt/td&gt
-              &lttd&gt94&lt/td&gt
-            &lt/tr&gt
-            &lttr&gt
-              &lttd&gtJohn&lt/td&gt
-              &lttd&gtDoe&lt/td&gt
-              &lttd&gt80&lt/td&gt
-            &lt/tr&gt
-        &lt/table&gt
-        </p>
-        <h5 style="border: 1px solid red;">
-            table, th, td {
-                border: 1px solid black;
-                border-collapse: collapse;
-              }
-         <p>
-            dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden 
-         </p>
-        </h5>
-        <h3 style="border: 1px solid red;">
-            Table size , Table Headers
+                &ltlink rel="icon" type="image/x-icon" href="/images/favicon.ico"&gt
+            </p>
+            <h2>HTML Table</h2>
+            <p style="border: 1px solid red;">
+                HTML tables allow web developers to arrange data into rows and columns. <br>
+                &lttable style="width:100%"&gt <br>
+                &lttr&gt <br>
+                &ltth&gtFirstname&lt/th&gt <br>
+                &ltth&gtLastname&lt/th&gt <br>
+                &ltth&gtAge&lt/th&gt <br>
+                &lt/tr&gt <br>
+                &lttr&gt <br>
+                &lttd&gtJill&lt/td&gt <br>
+                &lttd&gtSmith&lt/td&gt <br>
+                &lttd&gt50&lt/td&gt <br>
+                &lt/tr&gt <br>
+                &lttr&gt <br>
+                &lttd&gtEve&lt/td&gt <br>
+                &lttd&gtJackson&lt/td&gt <br>
+                &lttd&gt94&lt/td&gt <br>
+                &lt/tr&gt <br>
+                &lttr&gt <br>
+                &lttd&gtJohn&lt/td&gt <br>
+                &lttd&gtDoe&lt/td&gt <br>
+                &lttd&gt80&lt/td&gt <br>
+                &lt/tr&gt <br>
+                &lt/table&gt <br>
+            </p>
+            <h5 style="border: 1px solid red;">
+                table, th, td { <br>
+                border: 1px solid black; <br>
+                border-collapse: collapse; <br>
+                } <br>
+                <p>
+                    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden
+                </p>
+            </h5>
+        </div>
+        <div>
+            <h3 style="border: 1px solid red;">
+                Table size , Table Headers <br><br>
 
-            Cell Spacing --
-            table {
-                border-spacing: 30px;
-              }
+                Cell Spacing -- <br><br>
+                table { <br>
+                border-spacing: 30px; <br>
+                } <br><br>
 
-              Cell Padding --
-            tr,td{
-                padding-top: 10px;
-                padding-bottom: 20px;
-                padding-left: 30px;
-                padding-right: 40px;
-            }
+                Cell Padding -- <br><br>
+                tr,td{ <br>
+                padding-top: 10px; <br>
+                padding-bottom: 20px; <br>
+                padding-left: 30px; <br>
+                padding-right: 40px; <br>
+                } <br><br>
 
-            colspan, Rowspan --
-            &ltth colspan="2"&gtPhone&lt/th&gt
-            &ltth rowspan="2"&gtPhone&lt/th&gt
+                colspan, Rowspan -- <br><br>
+                &ltth colspan="2"&gtPhone&lt/th&gt <br>
+                &ltth rowspan="2"&gtPhone&lt/th&gt <br><br>
 
-            Table styling --
-            tr:nth-child(even) {
-                background-color: #D6EEEE;
-            }
+                Table styling -- <br><br>
+                tr:nth-child(even) { <br>
+                background-color: #D6EEEE; <br>
+                } <br><br>
 
-            colgroupping --
-            &ltcolgroup&gt
-                &ltcol span="2" style="background-color: #D6EEEE"&gt
-                &ltcol span="3" style="background-color: pink"  &gt
-                &ltcol span="3" style="visibility: collapse" &gt
-            &lt/colgroup&gt
-        </h3>
-    </pre>
+                colgroupping -- <br><br>
+                &ltcolgroup&gt <br>
+                &ltcol span="2" style="background-color: #D6EEEE"&gt <br>
+                &ltcol span="3" style="background-color: pink" &gt <br>
+                &ltcol span="3" style="visibility: collapse" &gt <br>
+                &lt/colgroup&gt <br>
+            </h3>
+        </div>
+
+
         <hr>
         <!-- ---------------------Day Fourth of html--------------------------------------- ---- -->
         <h1 align="center">Day 4</h1>
@@ -406,233 +451,263 @@
         <h3>what is Description list??</h3>
         <h3>What is class and id??</h3>
         <h3>What is iframe ??</h3>
-    </div>
-    <div>
-        <h3>HTML LIST</h3>
-        <p>HTML lists is group a set of related items in lists.</p>
-        <ul>
-            <li>Ordered list</li>
-            <li>Unordered list</li>
-            <li>Other list (Description list)</li>
-        </ul>
-        <pre style="border: 1px solid red;">
-        <b>Ordered list</b>
-            &ltol type="1"&gt
-                &ltli&gtItem-1&lt/li&gt
-                &ltli&gtItem-2&lt/li&gt
-                &ltli&gtItem-3&lt/li&gt
-            &lt/ol&gt
 
-             type=1,A,a,i.I
-             start ="50"
-
-        <b>unordered list</b>
-            &ltul style="list-style-type:disc;"&gt
-             &ltli&gtItem-1&lt/li&gt
-             &ltli&gtItem-2&lt/li&gt
-             &ltli&gtItem-3&lt/li&gt
-            &lt/ul&gt
-
-            disc, circle,squre,none
-
-        <b>Description list</b>
-            &ltdl&gt
-                &ltdt&gtCoffee&lt/dt&gt
-                &ltdd&gt- black hot drink&lt/dd&gt
-                &ltdt&gtMilk&lt/dt&gt
-                &ltdd&gt- white cold drink&lt/dd&gt
-            &lt/dl&gt
-        </pre>
-        <pre style="border: 1px solid red;">
+        <div>
+            <h3>HTML LIST</h3>
+            <p>HTML lists is group a set of related items in lists.</p>
+            <ul>
+                <li>Ordered list</li>
+                <li>Unordered list</li>
+                <li>Other list (Description list)</li>
+            </ul>
+            <p style="border: 1px solid red;">
+                <b>Ordered list</b> <br>
+                <br>
+                &ltol type="1"&gt <br>
+                &ltli&gtItem-1&lt/li&gt <br>
+                &ltli&gtItem-2&lt/li&gt <br>
+                &ltli&gtItem-3&lt/li&gt <br>
+                &lt/ol&gt <br>
+                <br>
+                type=1,A,a,i.I <br>
+                start ="50" <br>
+                <br>
+                <b>unordered list</b> <br>
+                <br>
+                &ltul style="list-style-type:disc;"&gt <br>
+                &ltli&gtItem-1&lt/li&gt <br>
+                &ltli&gtItem-2&lt/li&gt <br>
+                &ltli&gtItem-3&lt/li&gt <br>
+                &lt/ul&gt <br>
+                <br>
+                disc, circle,squre,none <br>
+                <br>
+                <b>Description list</b> <br>
+                <br>
+                &ltdl&gt <br>
+                &ltdt&gtCoffee&lt/dt&gt <br>
+                &ltdd&gt- black hot drink&lt/dd&gt <br>
+                &ltdt&gtMilk&lt/dt&gt <br>
+                &ltdd&gt- white cold drink&lt/dd&gt <br>
+                &lt/dl&gt <br>
+            </p>
             <h3>Create a menu/navar</h3>
-            &lt!DOCTYPE html&gt
-            &lthtml&gt
-                &lthead&gt
-                &ltstyle&gt
-                ul {
-                  list-style-type: none;
-                  margin: 0;
-                  padding: 0;
-                  overflow: hidden;
-                  background-color: #333333;
-                }
+            <p style="border: 1px solid red;">
+                &lt!DOCTYPE html&gt <br>
+                &lthtml&gt <br>
+                &lthead&gt <br>
+                &ltstyle&gt <br>
+                ul { <br>
+                list-style-type: none; <br>
+                margin: 0; <br>
+                padding: 0; <br>
+                overflow: hidden; <br>
+                background-color: #333333; <br>
+                } <br>
+                <br>
+                li { <br>
+                float: left; <br>
+                } <br>
+                <br>
+                li a { <br>
+                display: inline-block; <br>
+                color: white; <br>
+                text-align: center; <br>
+                padding: 16px; <br>
+                text-decoration: none; <br>
+                } <br>
+                <br>
+                li a:hover { <br>
+                background-color: #111111; <br>
+                } <br>
+                &lt/style&gt <br>
+                &lt/head&gt <br>
+                &ltbody&gt <br>
+                <br>
+                &lth2&gtNavigation Menu&lt/h2&gt <br>
+                &ltp&gt <br>
+                In this example, <br>
+                we use CSS to style <br>
+                the list horizontally, <br>
+                Create a navigation menu <br>
+                &lt/p&gt <br>
+                <br>
+                &ltul&gt <br>
+                &ltli&gt&lta href="#home"&gtHome&lt/a&gt&lt/li&gt <br>
+                &ltli&gt&lta href="#news"&gtNews&lt/a&gt&lt/li&gt <br>
+                &ltli&gt&lta href="#contact"&gtContact&lt/a&gt&lt/li&gt <br>
+                &ltli&gt&lta href="#about"&gtAbout&lt/a&gt&lt/li&gt <br>
+                &lt/ul&gt <br>
+                &lt/body&gt <br>
+                &lt/html&gt <br>
+            </p>
+            <h2 id="ch">
+                Iframe :- An HTML iframe is used to display a web page within a web page.
+            </h2>
 
-                li {
-                  float: left;
-                }
-
-                li a {
-                  display: inline-block;
-                  color: white;
-                  text-align: center;
-                  padding: 16px;
-                  text-decoration: none;
-                }
-
-                li a:hover {
-                  background-color: #111111;
-                }
-                &lt/style&gt
-                &lt/head&gt
-                &ltbody&gt
-                
-                &lth2&gtNavigation Menu&lt/h2&gt
-                &ltp&gtIn this example, we use CSS to style the list horizontally, to create a navigation menu:&lt/p&gt
-                
-                &ltul&gt
-                  &ltli&gt&lta href="#home"&gtHome&lt/a&gt&lt/li&gt
-                  &ltli&gt&lta href="#news"&gtNews&lt/a&gt&lt/li&gt
-                  &ltli&gt&lta href="#contact"&gtContact&lt/a&gt&lt/li&gt
-                  &ltli&gt&lta href="#about"&gtAbout&lt/a&gt&lt/li&gt
-                &lt/ul&gt
-                &lt/body&gt
-                &lt/html&gt
-            </pre>
-        <h2 id="ch">Iframe :- An HTML iframe is used to display a web page within a web page.</h2>
-
-        <pre style="border: 1px solid red;">
+            <div style="border: 1px solid red;">
                 <p>
-                    The HTML &ltiframe&gt tag specifies an inline frame.
-    
-                        An inline frame is used to embed another document within the current HTML document.
-
-                        Syntax :- &ltiframe src="url" title="description"&gt&lt/iframe&gt
+                    The HTML &ltiframe&gt tag specifies an inline frame. <br><br>
+                    An inline frame is used to embed another document within the current HTML document. <br><br>
+                    Syntax :- &ltiframe src="url" title="description"&gt&lt/iframe&gt <br>
                 </p>
-                <a href="#ch" target="iframe_a" style="text-decoration: none;background-color: #ffa500; border-radius: 30%;"> Go my html page</a>
-                <iframe src="practice.html" title="My iframe" name="iframe_a" frameborder="0" width="800px" height="400px"></iframe>
-                
-        </pre>
-        <pre style="border: 1px solid red;">
-                <h2>HTML File Paths :- A file path describes the location of a 
+            </div>
+            <a href="#ch" target="iframe_a"
+                style="text-decoration: none;background-color: #ffa500; border-radius: 30%;"> Go my html page
+            </a>
+            <div>
+                <iframe src="practice.html" title="My iframe" name="iframe_a" frameborder="0" width="95%"
+                    height="400px"></iframe>
+            </div>
+
+
+            <div style="border: 1px solid red;">
+                <h2>HTML File Paths :- A file path describes the location of a
                     file in a web site's folder structure.
                 </h2>
                 <p>
-                 &ltimg src="picture.jpg"&gt     	The "picture.jpg" file is located in the
-                                                    same folder as the current page
+                    &ltimg src="picture.jpg"&gt <br>
+                    The "picture.jpg" file is located in the
+                    same folder as the current page <br> <br>
 
-                 &ltimg src="images/picture.jpg"&gt	The "picture.jpg" file is located in the images
-                                                        folder in the current folder
+                    &ltimg src="images/picture.jpg"&gt <br>
+                    The "picture.jpg" file is located in the images
+                    folder in the current folder <br> <br>
 
-                 &ltimg src="/images/picture.jpg"&gt	The "picture.jpg" file is located in the
-                                                        images folder at the root of the current web
+                    &ltimg src="/images/picture.jpg"&gt <br>
+                    The "picture.jpg" file is located in the
+                    images folder at the root of the current web <br> <br>
 
-                 &ltimg src="../picture.jpg"&gt	The "picture.jpg" file is located in the folder one 
-                                                level up from the current folder
+                    &ltimg src="../picture.jpg"&gt <br>
+                    The "picture.jpg" file is located in the folder one
+                    level up from the current folder <br> <br>
                 </p>
-            </pre>
-        <hr>
-        <!-- ---------------------Day FIve of html------------------------------ ---- -->
-        <h1 align="center"> DAY - 5</h1>
-        <h3>What is html layout??</h3>
-        <h3>What is Responsive??</h3>
-        <h3>What is html entities??</h3>
-        <h3>What is html Symbol??</h3>
-        <h3>What is html Emojis??</h3>
+            </div>
+            <hr>
+            <!-- ---------------------Day FIve of html------------------------------ ---- -->
+            <h1 align="center"> DAY - 5</h1>
+            <h3>What is html layout??</h3>
+            <h3>What is Responsive??</h3>
+            <h3>What is html entities??</h3>
+            <h3>What is html Symbol??</h3>
+            <h3>What is html Emojis??</h3>
 
-        <p> Websites often display content in multiple columns (like a magazine or a newspaper).</p>
-        <p style="border: 1px solid red; padding: 30px;">
-            <img src="images/HTML-Layout-1.png" alt="HTML-Layout-1">
-            <img src="images/html-layout-3.jpg" alt="HTML-Layout-3">
-            <img src="images/Html-layout-2.gif" alt="HTML-Layout-2">
-        </p>
-
-        <h2>Html Responsive</h2>
-        <div style="border: 1px solid red; padding: 30px;">
             <p>
-                Responsive web design is about creating web pages that look good on all devices! <br>
-
-                A responsive web design will automatically adjust for different screen sizes and viewports.
+                Websites often display content in multiple columns (like a magazine or a newspaper).
             </p>
-            <p>
-                &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+            <p style="border: 1px solid red; padding: 30px;">
+                <img src="images/HTML-Layout-1.png" alt="HTML-Layout-1">
+                <img src="images/html-layout-3.jpg" alt="HTML-Layout-3">
+                <img src="images/Html-layout-2.gif" alt="HTML-Layout-2">
             </p>
-            <pre>Image Responsive :-
-                (1) Width: 100% 
-                (2) style="max-width:100%;height:auto;"
-                (3) Media Queries : 
 
-                @media screen and (max-width: 800px){
-                    .left, .main, .right {
-                      width: 100%; 
-                    }
-                }
+            <h2>Html Responsive</h2>
+            <div style="border: 1px solid red; padding: 30px;">
+                <p>
+                    Responsive web design is about creating web pages that look good on all devices! <br>
 
-                (4)  Popular CSS Frameworks :- Bootstrap, tailwind css, material-ui, ANTD etc.
-            </pre>
+                    A responsive web design will automatically adjust for different screen sizes and viewports.
+                </p>
+                <p>
+                    &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+                </p>
+                <div>Image Responsive :- <br><br>
+                    (1) Width: 100% <br>
+                    (2) style="max-width:100%;height:auto;" <br>
+                    (3) Media Queries : <br> <br>
+
+                    @media screen and (max-width: 800px){ <br>
+                    .left, .main, .right { <br>
+                    width: 100%; <br>
+                    } <br>
+                    } <br> <br>
+
+                    (4) Popular CSS Frameworks :- Bootstrap, tailwind css, material-ui, ANTD etc.
+                </div>
+            </div>
+            <!-- ---------------------Day SIX of html------------------------------ ---- -->
+            <h1 align="center"> DAY - 6</h1>
+
+            <h3>What is form??</h3>
+            <h3>What is input element??</h3>
+            <h3>What is label element??</h3>
+            <h3>video/Audio and element??</h3>
+            <h3>How to play youtube video in my website</h3>
+
+            <div style="border: 1px solid red; padding: 30px;">
+                <strong>HTML FORM</strong>
+                <p>
+                    An HTML form is used to collect user input.
+                    The user input is most often sent to a server for processing.
+                </p>
+                <form action="" name="" method="get" target="_blank" novalidate
+                    style="border: 1px solid red; padding: 30px;">
+
+                    <label for="fname">First name:</label> <br>
+                    <input type="text" class="nameinput" placeholder="Enter First name" name="" value="" id="fname">
+                    <br>
+
+                    <label for="lname">Last name:</label> <br>
+                    <input type="text" class="nameinput" placeholder="Enter last name" name="" value="" id="fname"> <br>
+
+
+
+                    <input type="radio" id="m" name="sex">
+                    <label for="m">Male</label> <br>
+
+                    <input type="radio" id="f" name="sex">
+                    <label for="f">Female</label> <br>
+
+                    <input type="radio" id="o" name="sex">
+                    <label for="o">Other</label> <br>
+                    <input type="checkbox" id="checkbox"> <label for="checkbox">Term and condition apply</label> <br>
+                    <br>
+
+                    <input type="submit" width="100px" value="submit">
+
+                </form>
+            </div>
+            <div style="border: 1px solid red; padding: 30px;">
+                <strong>Audio/video element</strong> <br> <br>
+
+                &ltvideo width="400" controls&gt <br>
+                &ltsource src="url" type="video/mp4"&gt <br>
+                &lt/video&gt <br><br>
+
+                &ltaudio width="400" controls&gt <br>
+                &ltsource src="url" type="audio/mp4"&gt <br>
+                &lt/audio&gt <br><br>
+
+                &ltiframe width="420" height="345" <br>
+                src="youtube url"&gt <br>
+                &lt/iframe&gt <br>
+            </div>
+            <div style="border: 1px solid red; padding: 30px;">
+                <Video controls>
+                    <source src="images/earth1.mp4" />
+                </Video>
+                <Video controls>
+                    <source src="images/path.mp4" />
+                </Video> <br><br>
+                <audio controls>
+                    <source src="images/nature-1.mp3" />
+                </audio>
+                <audio controls>
+                    <source src="images/nature-2.mp3" />
+                </audio><br><br>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+                </iframe>
+
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wTNhpKG7NwI" frameborder="0"
+                    allowfullscreen></iframe>
+
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/pQ9GnDx4Ozk">
+                </iframe>
+
+                <iframe src="https://www.youtube.com/embed/NvdUSZyCGRs" frameborder="0"></iframe>
+            </div>
         </div>
-        <!-- ---------------------Day SIX of html------------------------------ ---- -->
-        <h1 align="center"> DAY - 6</h1>
-
-        <h3>What is form??</h3>
-        <h3>What is input element??</h3>
-        <h3>What is label element??</h3>
-        <h3>video/Audio and element??</h3>
-        <h3>How to play youtube video in my website</h3>
-
-        <pre style="border: 1px solid red; padding: 30px;">
-            <strong>HTML FORM</strong>
-            <p>
-                An HTML form is used to collect user input. 
-                The user input is most often sent to a server for processing.
-            </p>
-            <form action="/file.js" name="" method="get" target="_blank" novalidate style="border: 1px solid red;       padding: 30px;">
-
-                <label for="fname">First name:</label>
-                <input type="text" class="nameinput" placeholder="Enter First name" name="" value="" id="fname">
-
-                <label for="lname">First name:</label>
-                <input type="text" class="nameinput" placeholder="Enter last name" name="" value="" id="fname">
-
-                
-                <label for="m">Male</label><input type="radio" id="m" name="sex">    <label for="f">Female</label><input type="radio" id="f" name="sex">    <label for="o">Other</label><input type="radio" id="o" name="sex">
-
-                <input type="checkbox" id="checkbox"> <label for="checkbox">Term and condition apply</label>
-
-                <input type="submit" class="nameinput" value="submit">
-
-            </form>
-        </pre>
-        <pre style="border: 1px solid red; padding: 30px;">
-            <strong>Audio/video element</strong>
-
-           &ltvideo width="400" controls&gt
-                &ltsource src="url" type="video/mp4"&gt
-          &lt/video&gt
-
-         &ltaudio width="400" controls&gt
-            &ltsource src="url" type="audio/mp4"&gt
-         &lt/audio&gt
-
-         &ltiframe width="420" height="345" 
-          src="youtube url"&gt
-         &lt/iframe&gt
-      </pre>
-        <div style="border: 1px solid red; padding: 30px;">
-            <Video controls>
-                <source src="images/earth1.mp4" />
-            </Video>
-            <Video controls>
-                <source src="images/path.mp4" />
-            </Video> <br><br>
-            <audio controls>
-                <source src="images/nature-1.mp3" />
-            </audio>
-            <audio controls>
-                <source src="images/nature-2.mp3" />
-            </audio><br><br>
-            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
-            </iframe>
-
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wTNhpKG7NwI" frameborder="0"
-                allowfullscreen></iframe>
-
-            <iframe width="420" height="345" src="https://www.youtube.com/embed/pQ9GnDx4Ozk">
-            </iframe>
-
-            <iframe src="https://www.youtube.com/embed/NvdUSZyCGRs" frameborder="0"></iframe>
-        </div>
-    </div>
 
 </body>
 
