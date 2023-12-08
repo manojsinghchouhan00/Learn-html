@@ -10,6 +10,47 @@
             box-sizing: border-box;
         }
 
+        .nav {
+            position: sticky;
+            top: -22px;
+            width: 100%;
+            float: inline-end;
+        }
+
+        #navbar {
+            position: sticky;
+            top: 0;
+            background-color: #00000020;
+            /* border: 2px solid red; */
+            border-radius: 10px;
+            padding: 8px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        #navbar li {
+            display: inline-block;
+        }
+
+        #navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        a:link {
+            background-color: #ee82ee10;
+        }
+
+        a:hover {
+            background-color: #0000ff40;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
         div,
         p,
         h3,
@@ -33,7 +74,7 @@
             padding: 10px;
         }
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 600px) {
             pre {
                 font-size: 10px;
                 padding: 0px;
@@ -54,6 +95,21 @@
                 padding: 10px;
             }
 
+            #navbar {
+                width: 279px;
+            }
+        }
+
+        @media screen and (max-width:310px) {
+            #navbar {
+                width: 191px;
+            }
+        }
+
+        @media screen and (max-width:223px) {
+            #navbar {
+                width: 110px;
+            }
         }
     </style>
 </head>
@@ -61,7 +117,17 @@
 <body style="border: 1px solid black;">
 
     <div>
-        <h1 id="#day1" align="center">Day 1</h1>
+        <div class="nav">
+            <ul id="navbar">
+                <li class="res"><a href="#section1">SEC-1</a></li>
+                <li class="res"><a href="#section2">SEC-2</a></li>
+                <li class="res"><a href="#section3">SEC-3</a></li>
+                <li class="res"><a href="#section4">SEC-4</a></li>
+                <li class="res"><a href="#section5">SEC-5</a></li>
+                <li class="res"><a href="#section6">SEC-6</a></li>
+            </ul>
+        </div>
+        <h1 align="center" id="section1">SECTION - 1</h1>
         <h4>Diffrence between HTML, CSS, JAVASCRIPT ??</h4>
         <h4>What is HTML ??</h4>
         <h4>Histry of html ??</h4>
@@ -123,7 +189,7 @@
             <span>SPAN TAG</span>
 
             <hr />
-            <h1 align="center">Day 2</h1>
+            <h1 align="center" id="section2">SECTION - 2</h1>
             <p>
                 what is nested element?? <br>
                 What is ancher tag?? <br>
@@ -249,7 +315,7 @@
 
             <hr>
             <!-- ----------------------------- Day third of html---------------------------------------- -->
-            <h1 align="center">Day 3</h1>
+            <h1 align="center" id="section3">SECTION - 3</h1>
             <h3>What is html css??</h3>
             <h3>How to Apply css in html page??</h3>
             <h3>Describ about html link</h3>
@@ -447,7 +513,7 @@
 
         <hr>
         <!-- ---------------------Day Fourth of html--------------------------------------- ---- -->
-        <h1 align="center">Day 4</h1>
+        <h1 align="center" id="section4">SECTION - 4</h1>
         <h3>What is list and define type??</h3>
         <h3>what is Ordered list??</h3>
         <h3>what is Unordered list??</h3>
@@ -589,7 +655,7 @@
             </div>
             <hr>
             <!-- ---------------------Day FIve of html------------------------------ ---- -->
-            <h1 align="center"> DAY - 5</h1>
+            <h1 align="center" id="section5"> SECTION - 5</h1>
             <h3>What is html layout??</h3>
             <h3>What is Responsive??</h3>
             <h3>What is html entities??</h3>
@@ -631,7 +697,7 @@
                 </div>
             </div>
             <!-- ---------------------Day SIX of html------------------------------ ---- -->
-            <h1 align="center"> DAY - 6</h1>
+            <h1 align="center" id="section6"> SECTION - 6</h1>
 
             <h3>What is form??</h3>
             <h3>What is input element??</h3>
@@ -672,11 +738,11 @@
 
                 </form>
                 <a href="form1.html" target="_blank">Basic input field info.</a>
-                &nbsp; &nbsp; 
+                &nbsp; &nbsp;
                 <a href="formbyonly.html" target="_blank">Form using table</a>
-                 &nbsp; &nbsp;
+                &nbsp; &nbsp;
                 <a href="feedbackForm.html" target="_blank">Teacher's feedbackForm</a>
-                &nbsp; &nbsp; 
+                &nbsp; &nbsp;
                 <a href="formRegiter.html" target="_blank">Registration form</a>
 
 
