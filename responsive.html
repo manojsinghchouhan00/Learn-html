@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive design of web page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg {
+            width: 220px;
+            height: 400px;
+            background-color: rgb(85, 99, 126);
+        }
+
+        .rp {
+            width: 220px;
+            height: 400px;
+            background-color: aqua;
+        }
+
+        .rp,
+        .bg {
+            float: left;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 900px) {
+
+            .rp,
+            .bg {
+                width: 16.66%;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+
+            .rp,
+            .bg {
+                width: 33.33%;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+
+            .rp,
+            .bg {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 300px) {
+
+            .rp,
+            .bg {
+                width: 100%;
+            }
+        }
+
+        @media screen and (min-width: 900px) {
+
+            .rp,
+            .bg {
+                width: 33.33%;
+            }
+        }
+
+        @media screen and (min-width: 1100px) {
+
+            .rp,
+            .bg {
+                width: 16.66%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Responsive web page design </h1>
+    <div>
+        <div class="bg">DIV-1</div>
+        <div class="rp">DIV-2</div>
+        <div class="bg">DIV-3</div>
+        <div class="rp">DIV-4</div>
+        <div class="bg">DIV-5</div>
+        <div class="rp">DIV-6</div>
+    </div>
+
+</body>
+
+</html>
